@@ -2,7 +2,7 @@ import axios, { AxiosResponse } from 'axios';
 import { v4 as uuidv4 } from 'uuid';
 import { toHmacSha1, toHmacSha256 } from './helpers/crypto'
 
-import type { MetabotWebhookPayloadPullRequest, MetabotWebhookEvents } from "../types/probot/index";
+import type { MetabotWebhookPayloadPullRequest, MetabotWebhookEvents } from "./types/probot/index";
 
 export class EventManager {
 
