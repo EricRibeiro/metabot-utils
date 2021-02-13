@@ -18,7 +18,7 @@ export class EventManager {
         this.url = process.env.WEBHOOK_PROXY_URL!;
         this.userAgent = process.env.METABOT_USER_AGENT!;
         this.gitHubHookId = process.env.WEBHOOK_PROXY_URL!;
-        this.gitHubTargetId = process.env.APP_ID!;
+        this.gitHubTargetId = process.env.METABOT_TARGET_ID!;
         this.secret = process.env.WEBHOOK_SECRET!;
         this.installationId = parseInt(process.env.METABOT_PAYLOAD_INSTALLATION_ID!);
         this.installationNodeId = process.env.METABOT_PAYLOAD_INSTALLATION_NODE_ID!;
